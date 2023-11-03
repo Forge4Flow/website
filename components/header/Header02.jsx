@@ -41,7 +41,7 @@ export default function Header02() {
   /*                            daynamic navigations                            */
   /* -------------------------------------------------------------------------- */
   const page = {
-    id: 2,
+    id: 1,
     name: "Solutions",
     pages: [
       {
@@ -60,8 +60,8 @@ export default function Header02() {
   };
 
   const explore = {
-    id: 3,
-    name: "Explore",
+    id: 2,
+    name: "SDKs",
     pages: [
       {
         id: uuidv4(),
@@ -134,25 +134,32 @@ export default function Header02() {
     ],
   };
 
+  const dao = {
+    id: 3,
+    name: "DAO",
+    pages: [
+      {
+        id: uuidv4(),
+        name: "Governance Portal",
+        path: "/blog",
+      },
+      {
+        id: uuidv4(),
+        name: "Whitepaper",
+        path: "https://docs.forge4flow.com",
+      },
+      {
+        id: uuidv4(),
+        name: "Token Release Schedule",
+        path: "https://api.forge4flow.com",
+      },
+    ],
+  };
+
   const resource = {
     id: 4,
     name: "Resources",
     pages: [
-      {
-        id: uuidv4(),
-        name: "Help Center",
-        path: "/help_center",
-      },
-      {
-        id: uuidv4(),
-        name: "Platform Status",
-        path: "/platform_status",
-      },
-      {
-        id: uuidv4(),
-        name: "Partners",
-        path: "/partners",
-      },
       {
         id: uuidv4(),
         name: "Blog",
@@ -160,13 +167,18 @@ export default function Header02() {
       },
       {
         id: uuidv4(),
-        name: "Single Post",
-        path: "/single_post/post_1",
+        name: "Developer Docs",
+        path: "https://docs.forge4flow.com",
       },
       {
         id: uuidv4(),
-        name: "Newsletter",
-        path: "/newsletter",
+        name: "API Reference",
+        path: "https://api.forge4flow.com",
+      },
+      {
+        id: uuidv4(),
+        name: "Contact Us",
+        path: "/contact",
       },
     ],
   };
@@ -197,7 +209,7 @@ export default function Header02() {
             <nav className="navbar w-full">
               <ul className="flex flex-col lg:flex-row">
                 {/* home */}
-                <li className="group" onClick={() => setToggle(false)}>
+                {/* <li className="group" onClick={() => setToggle(false)}>
                   <Link href="/cloud">
                     <button className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5">
                       <span
@@ -211,7 +223,7 @@ export default function Header02() {
                       </span>
                     </button>
                   </Link>
-                </li>
+                </li> */}
 
                 {/* solutions */}
                 <li className="js-nav-dropdown group relative">
@@ -304,6 +316,55 @@ export default function Header02() {
                             {page?.icon}
                           </span>
                           <span className="font-display text-jacarta-700 text-sm dark:text-white">
+                            {page?.name}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+
+                <li className="js-nav-dropdown group relative">
+                  <button className="dropdown-toggle font-display  hover:text-accent focus:text-accent flex items-center justify-between py-3.5 text-base lg:text-white text-jacarta-700 dark:text-white lg:px-5 w-full">
+                    <span
+                      className={
+                        isParentPageActive(resource.pages, route.asPath)
+                          ? "text-accent dark:text-accent"
+                          : ""
+                      }
+                    >
+                      DAO
+                    </span>
+                    <i className="lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width={24}
+                        height={24}
+                        className="h-4 w-4 dark:fill-white"
+                      >
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" />
+                      </svg>
+                    </i>
+                  </button>
+                  <ul
+                    className="dropdown-menu dark:bg-jacarta-800 left-0 top-[85%] z-10 hidden min-w-[200px] gap-x-4 whitespace-nowrap rounded-xl bg-white transition-all will-change-transform group-hover:visible group-hover:opacity-100 lg:invisible lg:absolute lg:grid lg:translate-y-4 lg:py-4 lg:px-2 lg:opacity-0 lg:shadow-2xl lg:group-hover:translate-y-2 relative"
+                    aria-labelledby="navDropdown-4"
+                  >
+                    {dao?.pages?.map?.((page) => (
+                      <li key={page.id}>
+                        <Link
+                          href={page?.path}
+                          className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
+                        >
+                          <span
+                            className={`font-display ${
+                              isChildrenPageActive(page.path, route.asPath)
+                                ? "text-accent dark:text-accent"
+                                : "text-jacarta-700"
+                            } text-sm dark:text-white`}
+                          >
                             {page?.name}
                           </span>
                         </Link>

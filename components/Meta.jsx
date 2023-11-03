@@ -1,8 +1,6 @@
 import Head from "next/head";
 
 const Meta = ({ title, keyword, desc }) => {
-  console.log(typeof title, title);
-
   return (
     <div>
       <Head>

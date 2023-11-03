@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { buyModalHide } from "../../redux/counterSlice";
-import { Confirm_checkout } from "../metamask/Metamask";
 import Image from "next/image";
 
 const BuyModal = () => {
@@ -147,7 +146,7 @@ const BuyModal = () => {
 
             <div className="modal-footer">
               <div className="flex items-center justify-center space-x-4">
-                <Confirm_checkout />
+                {/* <Confirm_checkout /> */}
               </div>
             </div>
           </div>

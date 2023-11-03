@@ -8,7 +8,7 @@ import Testimonial2 from "../components/testimonial/Testimonial2";
 import RoadMap from "../components/ico-landing/RoadMap";
 import Team from "../components/ico-landing/Team";
 import Faq from "../components/ico-landing/faq";
-import Benifits from "../components/ico-landing/Benifits";
+import Benifits from "../components/dao/Benifits";
 
 const Home = () => {
   useEffect(() => {
@@ -20,10 +20,10 @@ const Home = () => {
     <>
       <Meta title="Home" />
       <Hero />
+      {/* <Benifits /> */}
       {/* <ProSaleBanner /> */}
       {/* <TrustedPartner /> */}
       <Faq />
-      <Benifits />
       {/* <Team /> */}
       <RoadMap />
       {/* <Testimonial2 />

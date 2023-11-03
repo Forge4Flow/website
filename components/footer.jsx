@@ -78,20 +78,13 @@ const footer = () => {
 
           <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
-              <span>© {new Date().getFullYear()} Xhibiter — Made by</span>
-              <Link
-                href="https://themeforest.net/user/ib-themes"
-                className="hover:text-accent dark:hover:text-white"
-              >
-                {" "}
-                ib-themes
-              </Link>
+              <span>© {new Date().getFullYear()} Forge4Flow DAO LLC</span>
             </span>
 
             <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">
               <li>
                 <Link
-                  href="/tarms"
+                  href="/terms"
                   className="hover:text-accent dark:hover:text-white"
                 >
                   Terms and conditions
@@ -99,7 +92,7 @@ const footer = () => {
               </li>
               <li>
                 <Link
-                  href="/tarms"
+                  href="/privacy"
                   className="hover:text-accent dark:hover:text-white"
                 >
                   Privacy policy

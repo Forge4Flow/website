@@ -4,11 +4,11 @@ const footerMenuList = [
     title: "Solutions",
     diffClass: "md:col-start-7",
     list: [
-      {
-        id: 1,
-        href: "#",
-        text: "Cloud",
-      },
+      // {
+      //   id: 1,
+      //   href: "#",
+      //   text: "Cloud",
+      // },
       {
         id: 2,
         href: "#",
@@ -45,11 +45,6 @@ const footerMenuList = [
         id: 2,
         href: "#",
         text: "Contact Us",
-      },
-      {
-        id: 4,
-        href: "#",
-        text: "FAQ",
       },
     ],
   },
