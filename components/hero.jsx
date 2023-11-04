@@ -31,7 +31,7 @@ const Hero = () => {
               Forge4Flow DAO LLC
             </p>
             <h1 className="mb-8 text-center font-display text-5xl text-white md:text-left lg:text-6xl">
-              Forge Secure Web3 DApp's On Flow
+              Forge Secure Web3 DApp&apos;s On Flow
             </h1>
             <div className="flex space-x-4">
               <Link
@@ -41,7 +41,7 @@ const Hero = () => {
                 Get Started
               </Link>
               <Link
-                href="/whitepaper"
+                href="https://docs.forge4flow.com/whitepaper-draft"
                 className="rounded-full bg-white py-3 px-8 text-center font-semibold text-accent shadow-white-volume transition-all hover:bg-accent-dark hover:text-white hover:shadow-accent-volume"
               >
                 Read Whitepaper

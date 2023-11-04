@@ -48,13 +48,13 @@ export default function Header02() {
         id: uuidv4(),
         name: "Auth",
         condition: true,
-        path: "/maintenance",
+        path: "https://docs.forge4flow.com/auth4flow/overview",
       },
       {
         id: uuidv4(),
         name: "Alerts",
         condition: true,
-        path: "/case-studies",
+        path: "https://docs.forge4flow.com/alerts4flow/overview",
       },
     ],
   };
@@ -66,7 +66,7 @@ export default function Header02() {
       {
         id: uuidv4(),
         name: "Forge4Flow",
-        path: "/collection/explore_collection",
+        path: "https://sdks.forge4flow.com",
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -160,11 +160,11 @@ export default function Header02() {
     id: 4,
     name: "Resources",
     pages: [
-      {
-        id: uuidv4(),
-        name: "Blog",
-        path: "/blog",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Blog",
+      //   path: "/blog",
+      // },
       {
         id: uuidv4(),
         name: "Developer Docs",
@@ -278,7 +278,7 @@ export default function Header02() {
                 </li>
 
                 {/* explore */}
-                <li className="js-nav-dropdown nav-item dropdown group relative">
+                {/* <li className="js-nav-dropdown nav-item dropdown group relative">
                   <button className="dropdown-toggle font-display  hover:text-accent focus:text-accent flex items-center justify-between py-3.5 text-base lg:text-white text-jacarta-700 dark:text-white lg:px-5 w-full">
                     <span
                       className={
@@ -322,9 +322,9 @@ export default function Header02() {
                       </li>
                     ))}
                   </ul>
-                </li>
+                </li> */}
 
-                <li className="js-nav-dropdown group relative">
+                {/* <li className="js-nav-dropdown group relative">
                   <button className="dropdown-toggle font-display  hover:text-accent focus:text-accent flex items-center justify-between py-3.5 text-base lg:text-white text-jacarta-700 dark:text-white lg:px-5 w-full">
                     <span
                       className={
@@ -371,7 +371,7 @@ export default function Header02() {
                       </li>
                     ))}
                   </ul>
-                </li>
+                </li> */}
 
                 {/* resource */}
                 <li className="js-nav-dropdown group relative">

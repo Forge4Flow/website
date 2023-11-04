@@ -30,9 +30,9 @@ const Terms = () => {
               <p className="text-base">Last Updated: Oct 18th, 2023</p>
               <p>
                 Welcome to Forge4Flow DAO LLC. Please read these Terms and
-                Conditions ("Terms") carefully before using the forge4flow.com
-                website (the "Service") operated by Forge4Flow DAO LLC, a
-                Wyoming DAO LLC.
+                Conditions (&quot;Terms&quot;) carefully before using the
+                forge4flow.com website (the &quot;Service&quot;) operated by
+                Forge4Flow DAO LLC, a Wyoming DAO LLC.
               </p>
 
               <h2 className="text-base">Acceptance of Terms</h2>
@@ -80,11 +80,11 @@ const Terms = () => {
 
               <h2>No Warranties</h2>
               <p>
-                This website is provided "as is" without any representations or
-                warranties. Given the decentralized nature of a DAO, the
-                responsibility for content accuracy, relevancy, or completeness
-                is distributed among its members. We make no guarantees on
-                behalf of individual member contributions.
+                This website is provided &quot;as is&quot; without any
+                representations or warranties. Given the decentralized nature of
+                a DAO, the responsibility for content accuracy, relevancy, or
+                completeness is distributed among its members. We make no
+                guarantees on behalf of individual member contributions.
               </p>
 
               <h2>Limitation of Liability</h2>
@@ -105,9 +105,9 @@ const Terms = () => {
               <h2>Changes to Terms</h2>
               <p>
                 Terms can be modified or replaced with the consensus or approval
-                mechanism as set by the DAO's governing rules or smart contract
-                protocols. Changes made without following the DAO's governance
-                process will be deemed invalid.
+                mechanism as set by the DAO&apos;s governing rules or smart
+                contract protocols. Changes made without following the
+                DAO&apos;s governance process will be deemed invalid.
               </p>
 
               <h2>Contact Us</h2>

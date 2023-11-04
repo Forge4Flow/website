@@ -11,17 +11,17 @@ const footerMenuList = [
       // },
       {
         id: 2,
-        href: "#",
+        href: "https://docs.forge4flow.com/auth4flow/overview",
         text: "Auth4Flow",
       },
       {
         id: 3,
-        href: "#",
+        href: "https://docs.forge4flow.com/alerts4flow/overview",
         text: "Alerts4Flow",
       },
       {
         id: 4,
-        href: "#",
+        href: "https://sdks.forge4flow.com",
         text: "Ecosystem SDKs",
       },
     ],
@@ -31,45 +31,45 @@ const footerMenuList = [
     title: "General Information",
     diffClass: "",
     list: [
-      {
-        id: 1,
-        href: "#",
-        text: "Developer Grants",
-      },
-      {
-        id: 3,
-        href: "#",
-        text: "Our Blog",
-      },
+      // {
+      //   id: 1,
+      //   href: "#",
+      //   text: "Developer Grants",
+      // },
+      // {
+      //   id: 3,
+      //   href: "#",
+      //   text: "Our Blog",
+      // },
       {
         id: 2,
-        href: "#",
+        href: "/contact",
         text: "Contact Us",
       },
     ],
   },
-  {
-    id: 3,
-    title: "DAO Governance",
-    diffClass: "",
-    list: [
-      {
-        id: 1,
-        href: "#",
-        text: "Governance Portal",
-      },
-      {
-        id: 2,
-        href: "#",
-        text: "Whitepaper",
-      },
-      {
-        id: 3,
-        href: "#",
-        text: "Token Release Schedule",
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "DAO Governance",
+  //   diffClass: "",
+  //   list: [
+  //     {
+  //       id: 1,
+  //       href: "#",
+  //       text: "Governance Portal",
+  //     },
+  //     {
+  //       id: 2,
+  //       href: "#",
+  //       text: "Whitepaper",
+  //     },
+  //     {
+  //       id: 3,
+  //       href: "#",
+  //       text: "Token Release Schedule",
+  //     },
+  //   ],
+  // },
 ];
 
 const socialIcons = [

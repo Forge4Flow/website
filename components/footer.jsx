@@ -24,8 +24,8 @@ const footer = () => {
               <p className="dark:text-jacarta-300 mb-12">
                 Forge4Flow Is Charting A Revolutionary Path In The Flow
                 Ecosystem. By Introducing Robust Developer Tools And Championing
-                True Decentralization, We're Fostering Trust, Collaboration, And
-                Innovation.
+                True Decentralization, We&apos;re Fostering Trust,
+                Collaboration, And Innovation.
               </p>
 
               {/* <!-- Socials --> */}
@@ -92,7 +92,7 @@ const footer = () => {
               </li>
               <li>
                 <Link
-                  href="/privacy"
+                  href="/terms/privacy"
                   className="hover:text-accent dark:hover:text-white"
                 >
                   Privacy policy

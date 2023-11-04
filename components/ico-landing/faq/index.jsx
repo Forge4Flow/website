@@ -29,7 +29,7 @@ const index = () => {
             <p className="mt-10 mb-5 dark:text-jacarta-300">
               Forge4Flow is charting a revolutionary path in the Flow ecosystem.
               By introducing robust developer tools and championing true
-              decentralization, we're fostering trust, collaboration, and
+              decentralization, we&apos;re fostering trust, collaboration, and
               innovation.
             </p>
             <Faq />
